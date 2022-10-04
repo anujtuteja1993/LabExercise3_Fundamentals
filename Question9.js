@@ -12,6 +12,7 @@ let ladder = {
 
     showStep: function () { // shows the current step
         console.log(this.step);
+        return this; //needed here too so we can chain all the functions
     }
 };
 
